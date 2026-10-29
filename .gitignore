@@ -1,0 +1,45 @@
+# Local WSL disk, account data and machine-specific deployment records
+/dafeiyu-wsl/
+/dafeiyu-deployment/wsl-path-*.json
+/dafeiyu-deployment/wsl-service-refresh-result.txt
+/dafeiyu-deployment/*.local.*
+/.local-git-backups/
+*.vhd
+*.vhdx
+*.vhdx.*
+
+# Build output and caches
+**/.build/
+**/.swiftpm/
+**/dist/
+**/node_modules/
+**/__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Credentials, conversations, memory and diagnostic captures
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.log
+*.db
+*.sqlite*
+*.jsonl
+*.har
+*.heapsnapshot
+qq-state.json
+state.json
+**/config/
+**/local/
+**/private/
+**/artifacts/
+
+# Editor and local agent configuration
+.vscode/
+.idea/
+.codex/
+.agents/
